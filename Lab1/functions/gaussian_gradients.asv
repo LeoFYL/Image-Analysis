@@ -1,0 +1,5 @@
+function gaussian_gradients(img, std)
+filtered = gaussian_filter(img,std);
+h = [-1/2; 0; 1/2];
+grad_x = imfilter(fil_img, h.', 'symmetric'); % Calculate X-derivative
+grad_y = imfilter(fil_img, h, 'symmetric'); % Calculate Y-derivative
