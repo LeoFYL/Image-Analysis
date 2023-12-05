@@ -1,1 +1,0 @@
-Learning and convolutional networks
